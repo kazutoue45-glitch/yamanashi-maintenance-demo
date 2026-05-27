@@ -30,12 +30,12 @@ ul { list-style: none; }
 
 /* HERO */
 .hero { position: relative; min-height: 70vh; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 72px 16px 40px; }
-.hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; z-index: 0; }
+.hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 30% center; z-index: 0; transform: scale(1.15); }
 .hero__content { position: relative; z-index: 2; text-align: center; max-width: 600px; }
-.hero__heading { font-size: clamp(1.5rem, 5.5vw, 2.4rem); font-weight: 900; color: var(--text); line-height: 1.4; margin-bottom: 12px; text-shadow: 0 1px 8px rgba(255,255,255,0.8), 0 0 2px rgba(255,255,255,1); }
-.hero__sub { font-size: clamp(0.85rem, 2.5vw, 1.05rem); color: var(--text-s); margin-bottom: 20px; text-shadow: 0 1px 6px rgba(255,255,255,0.7); }
+.hero__heading { font-size: clamp(1.5rem, 5.5vw, 2.4rem); font-weight: 900; color: var(--text); line-height: 1.4; margin-bottom: 12px; text-shadow: 0 0 12px #fff, 0 0 24px #fff, 0 1px 3px rgba(255,255,255,0.9); }
+.hero__sub { font-size: clamp(0.85rem, 2.5vw, 1.05rem); color: var(--text-s); margin-bottom: 20px; text-shadow: 0 0 10px #fff, 0 0 20px #fff; }
 .hero__stats { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; }
-.hero__stat { font-size: 0.9rem; color: var(--gold); font-weight: 700; }
+.hero__stat { font-size: 0.9rem; color: var(--gold); font-weight: 700; text-shadow: 0 0 10px #fff, 0 0 20px #fff; }
 .hero__stat strong { font-size: 1.6em; color: var(--red); }
 
 /* BUTTONS */
